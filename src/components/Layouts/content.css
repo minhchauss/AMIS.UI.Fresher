@@ -4,5 +4,6 @@
     left: 178px;
     width: calc(100% - 178px);
     height: calc(100vh - 48px);
-    background-color: burlywood;
+    overflow: hidden;
+
 }

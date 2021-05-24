@@ -4,5 +4,64 @@
     left: 178px;
     height: 48px;
     width: calc(100% - 178px);
-    background-color: aqua;
+    z-index: 100000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: notosans-semibold;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+.header-left{
+    display: flex;
+    justify-content: center;
+}
+.icon-svg-header {
+    background: url('../../assets/Imgs/Sprites.64af8f61.svg') no-repeat;
+}
+.icon-navbar-header{
+    background-position:-847px -35px;
+    height: 16px;
+    width: 14px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.header-name-enterprise{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 14px;
+}
+.header-toggle-down{
+    background-position:-84px -361px;
+    width: 8px;
+	height: 14px;
+    margin-left: 10px;
+    margin-top: 2px;
+    transform: rotate(90deg);
+}
+.header-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.icon-bell-noticfication{
+    background-position: -257px -32px;
+    width: 22px;
+	height: 25px;
+    margin-right: 5px;
+}
+.icon-user{
+    background-position: -352px -894px;
+    width: 32px;
+	height: 32px;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+.icon-arrow-down{
+    background-position: -1078px -38px;
+    width: 9px;
+	height: 6px;
+    margin-right: 10px;
+    margin-left: 10px;
 }

@@ -22,10 +22,17 @@ export default {
 </script>
 
 <style>
-/* body{
+@import url('./assets/Commons/scrollbar.css');
+@import url('./assets/Commons/buttons.css');
+@import url('./assets/Commons/inputs.css');
+@import url('./assets/Commons/paging.css');
+body{
   min-width: 1024px;
   min-height: 768px;
-} */
+  overflow: hidden;
+  margin: 0;
+}
+/*------------------- Định dạng font chữ -----------------------*/
 @font-face{
   font-family: notosans-bold;
   src: url('./assets/Fonts/notosans-bold.3ede5aff.woff2');
@@ -42,15 +49,19 @@ export default {
   font-family: notosans-semibold;
   src: url("./assets/Fonts/notosans-semibold.df3e6dc4.woff2");
 }
+/*-------------------------------------------------------------------------------*/
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  font-size: 13px;
 }
 .icon-svg{
   background: url('./assets/Imgs/Sprites.64af8f61.svg') no-repeat;
-  
+  margin-right: 8px;
 }
+
+
 </style>

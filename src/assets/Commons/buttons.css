@@ -1,0 +1,17 @@
+.btn-default{
+    height: 40px;
+    border-radius: 4px;
+    color: #fff;
+    padding-left: 24px;
+    padding-right: 24px;
+    outline: none;
+    box-shadow: none;
+    background: #2ca01c;
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+    font-family: notosans-semibold;
+}
+.btn-default:hover{
+    background: #35bf22;
+}

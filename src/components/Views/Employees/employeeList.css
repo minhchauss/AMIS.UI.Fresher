@@ -1,0 +1,94 @@
+/* -----------------------Header của bảng-------------------- */
+.employee-content {
+  padding-left: 20px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  background-color: #f4f5f6;
+}
+.employee-header {
+  display: flex;
+  justify-content: space-between;
+  height: 93px;
+  align-items: center;
+}
+.employee-header-title {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: notosans-bold;
+}
+/* -----------------------------Tìm kiếm refresh lại bảng---------------- */
+.grid-bar-search {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 16px 16px 10px 16px;
+}
+.icon-refresh-data {
+  background-position: -1098px -90px;
+  width: 20px;
+  height: 21px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.input-search-list {
+  width: 250px;
+}
+.input-search-list input {
+  padding-left: 16px;
+  padding-right: 30px;
+}
+.icon-search-input {
+  background: url("../../../assets/Imgs/Sprites.64af8f61.svg");
+  background-repeat: no-repeat;
+  background-position: -992px -360px;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  right: 80px;
+  top: 116px;
+  cursor: pointer;
+}
+/* -------------------------------Phần thân bảng -------------------------------*/
+.grid-table {
+    background: #fff;
+    padding-left: 16px;
+    overflow:auto ;
+    bottom: 48px;
+    top: 100px;
+}
+.table-employee {
+  border-collapse: collapse;
+  width: 100%;
+}
+table thead tr th {
+  background: #eceef1;
+  border-right: 1px solid #bbb;
+  border-bottom: 1px solid #bbb;
+  height: 34px;
+}
+table tbody{
+    overflow-y:auto ;
+    overflow-x: hidden;
+}
+table tbody tr {
+    border-bottom: 1px solid #bbb;
+    height: 50px;
+    /* overflow-y: scroll; */
+}
+
+table tbody tr td{
+    border-right: 1px dotted #bbb;
+}
+
+.td-change{
+    border-right: none !important;
+}
+
+
+
+
+/* ------------------------------Footer của bảng----------------------------- */
+.table-footer{
+    height: 46px;
+    width: 100%;
+}

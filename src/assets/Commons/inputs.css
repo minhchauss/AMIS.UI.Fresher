@@ -1,0 +1,18 @@
+input[type=text],
+input[type=date]{
+    height: 32px;
+    border-radius: 2px;
+    font-size: 13px;
+    border: 1px solid #babec5;
+    outline: none;
+    color: inherit;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+
+
+
+::-webkit-input-placeholder{
+    font-family: notosans-italic;
+}
