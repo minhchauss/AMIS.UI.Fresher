@@ -1,8 +1,16 @@
-.paging{
+.paging {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  height: 48px;
+  position: absolute;
+  right: 30px;
+  left: 16px;
+}
+.paging-right{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     text-align: center;
-    height: 48px;
-    position: absolute;
 }

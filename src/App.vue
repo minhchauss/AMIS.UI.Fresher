@@ -26,9 +26,10 @@ export default {
 @import url('./assets/Commons/buttons.css');
 @import url('./assets/Commons/inputs.css');
 @import url('./assets/Commons/paging.css');
+@import url('./assets/Commons/combobox.css');
 body{
-  min-width: 1024px;
-  min-height: 768px;
+  min-width: 1024px !important;
+  min-height: 768px !important;
   overflow: hidden;
   margin: 0;
 }

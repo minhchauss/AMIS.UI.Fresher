@@ -90,6 +90,60 @@
             "position": "công nhân",
             "department": "phòng sản xuất",
             "bankName": "SHB"
+        },
+        {
+            "employeeCode": "nv1",
+            "name": "cm chau",
+            "dob": "1-1-2021",
+            "identity": "1234567",
+            "position": "công nhân",
+            "department": "phòng sản xuất",
+            "bankName": "SHB"
+        },
+        {
+            "employeeCode": "nv1",
+            "name": "cm chau",
+            "dob": "1-1-2021",
+            "identity": "1234567",
+            "position": "công nhân",
+            "department": "phòng sản xuất",
+            "bankName": "SHB"
+        },
+        {
+            "employeeCode": "nv1",
+            "name": "cm chau",
+            "dob": "1-1-2021",
+            "identity": "1234567",
+            "position": "công nhân",
+            "department": "phòng sản xuất",
+            "bankName": "SHB"
+        },
+        {
+            "employeeCode": "nv1",
+            "name": "cm chau",
+            "dob": "1-1-2021",
+            "identity": "1234567",
+            "position": "công nhân",
+            "department": "phòng sản xuất",
+            "bankName": "SHB"
+        },
+        {
+            "employeeCode": "nv1",
+            "name": "cm chau",
+            "dob": "1-1-2021",
+            "identity": "1234567",
+            "position": "công nhân",
+            "department": "phòng sản xuất",
+            "bankName": "SHB"
+        },
+        {
+            "employeeCode": "nv1",
+            "name": "cm chau",
+            "dob": "1-1-2021",
+            "identity": "1234567",
+            "position": "công nhân",
+            "department": "phòng sản xuất",
+            "bankName": "SHB"
         }
     ]
 }
